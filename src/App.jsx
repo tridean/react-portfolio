@@ -1,7 +1,6 @@
 import React from 'react';
 import "./tailwind.css";
-import Intro from './components/Intro';
-import Projects from './components/Projects';
+import Header from './components/Header';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
@@ -10,9 +9,8 @@ function App() {
 
   return (
       <div className="App">
-        <Intro />
+        <Header />
         <Portfolio />
-        <Projects />
         <Contact />
         <Footer />
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import portfolio from '../data/portfolio';
 import PortCard from "./PortCard";
+import Title from './Title';
 
 function Portfolio() {
   return (
