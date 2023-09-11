@@ -1,4 +1,5 @@
 # React Portfolio
+![portfolio](https://github.com/tridean/react-portfolio/assets/136284678/f9c059d8-b752-4361-8496-36df6290e1f6)
 
 ## Description
 
