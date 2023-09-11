@@ -6,9 +6,13 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 
 function App() {
+  const appStyles = {
+    backgroundColor: 'blanchedalmond', 
+    minHeight: '100vh', 
+  };
 
   return (
-      <div className="App">
+      <div className="App" style={appStyles}>
         <Header />
         <Portfolio />
         <Contact />
