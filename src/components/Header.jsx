@@ -3,6 +3,13 @@ import React from "react";
 function Header() {
   return (
     <div className="flex items-center justify-center flex-col text-center pt-20 pb-10 md:pb-20">
+      <div className="mb-4 md:mb-6">
+        <img
+          src="/assets/pfp.PNG" 
+          alt="Profile"
+          className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-cyan-500"
+        />
+      </div>
       <h1 className="text-4xl md:text-6xl mb-2 md:mb-4 font-bold text-gray-800">Tristan Carl</h1>
       <p className="text-base md:text-lg mb-4 md:mb-6 font-medium text-gray-600">Full Stack Web Developer</p>
       <p className="text-sm max-w-2xl mb-8 font-normal text-gray-700">
